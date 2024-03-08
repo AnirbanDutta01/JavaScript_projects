@@ -1,0 +1,63 @@
+#gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    border: 2px solid;
+    margin-top:30px;
+}
+#scoreText{
+    font-family: monospace;
+    font-size: 50px;
+}
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+    
+}#startBtn{
+    font-family: "Permanent Marker";
+    font-size: 18px;
+    width:90px;
+    height: 50px;
+    border:2px solid;
+    border-radius: 15px;
+    cursor:pointer;
+    /*margin-right:calc((100%-(4*90px))/3);*/
+    margin-right:10px;
+}
+#pauseBtn{
+    font-family: "Permanent Marker";
+    font-size: 18px;
+    width:90px;
+    height: 50px;
+    border:2px solid;
+    border-radius: 15px;
+    cursor:pointer;
+    /*margin-right:calc((100%-(4*90px))/3);*/
+    margin-right:10px;
+}
+#continueBtn{
+    font-family: "Permanent Marker";
+    font-size: 18px;
+    width:90px;
+    height: 50px;
+    border:2px solid;
+    border-radius: 15px;
+    cursor:pointer;
+    /*margin-right:calc((100%-(4*90px))/3);*/
+    margin-right:10px;
+}
+#resetBtn{
+    font-family: "Permanent Marker";
+    font-size: 18px;
+    width:90px;
+    height: 50px;
+    border:2px solid;
+    border-radius: 15px;
+    cursor:pointer;
+    display: block;
+    /*margin-right:calc((100%-(4*90px))/3);*/
+    margin-right:10px;
+}
+.display{
+    display: none;
+}
